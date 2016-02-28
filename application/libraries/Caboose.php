@@ -29,6 +29,7 @@ class Caboose {
 	);
 
 	// define the components
+                  // added component for jRating - 25/32 (Feb-28-2016 William)
     var $components = array(
          'lightbox' => array(
             'css' => 'jquery.lightbox-0.5.css',
@@ -39,6 +40,11 @@ class Caboose {
             'css' => '',
             'js' => 'bootstrap-confirmation.js',
             'template' => 'confirm'
+        ),
+        'jrating' => array(
+            'css' => 'jRating.jquery.css',
+            'js'   => 'jRating.jquery.js',
+            'template' => 'jrating'
         ),
      );
     // provide for any fields they need. this should be indexed [component][field]
